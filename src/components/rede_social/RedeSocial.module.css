@@ -1,0 +1,13 @@
+.Rede_Social {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.Rede_Social ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}

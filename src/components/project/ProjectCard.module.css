@@ -1,0 +1,56 @@
+.outraclass {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.Container_Title {
+  display: flex;
+  background-color: #3e3e42;
+  padding: 15px;
+  gap: 30px;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+  border-bottom: solid 1px #242424;
+}
+
+.Container_Title ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.Container_Title button {
+  border: none;
+  padding: 10px;
+}
+
+.Container_Title button svg {
+  transform: rotate(-90deg);
+  cursor: pointer;
+  transition: 300ms ease-in-out;
+}
+
+.Container_Title h1 {
+  color: #007acc;
+}
+
+.Container_more_info {
+  display: flex;
+  padding: 15px;
+  background-color: #2d2d30;
+  flex-direction: column;
+  align-items: center;
+  transition: 300ms ease-in-out;
+}
+
+.Container_more_info .Pree {
+  width: 100%;
+  white-space: pre-wrap;
+}
+
+.Container_more_info img {
+  max-width: 250px;
+}
