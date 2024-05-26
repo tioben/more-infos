@@ -4,7 +4,12 @@ import torres_image from './assets/torres.png';
 import evertical_image from './assets/evertical.png';
 import controller_image from './assets/controller.png';
 import metro_image from './assets/metro.png';
+import fatec_image from './assets/fatec.png';
+import etec_image from './assets/etec.png';
+import senai_image from './assets/senai.png';
+
 import RedeSocial from './components/rede_social/RedeSocial';
+import Title from './components/title/Title';
 
 function App() {
   const msg1 = `
@@ -51,10 +56,125 @@ Ao longo do curso, também fui introduzido às normas técnicas e regulamentos d
 Com uma formação abrangente em eletroeletrônica, estou preparado para ingressar no mercado de trabalho como um profissional qualificado em uma variedade de setores, incluindo automação industrial, telecomunicações, eletrônica de consumo, energia e muitos outros.
   `;
 
+  const msg5 = `1. Fundamentos de Eletricidade e Eletrônica
+
+  Teoria e Prática de Circuitos Elétricos: Estudo de circuitos resistivos, capacitivos e indutivos, com aplicação prática em montagens de circuitos.
+  Análise de Componentes Eletrônicos: Identificação e uso de resistores, capacitores, diodos, transistores e outros componentes básicos em projetos eletrônicos.
+
+2. Programação e Automação
+
+  Programação em C para Arduino: Desenvolvimento de projetos utilizando a plataforma Arduino, com ênfase na programação em linguagem C para controle de hardware.
+  Automação Predial: Introdução a sistemas de automação predial, incluindo programação de controladores lógicos programáveis (CLPs) e integração com sistemas de gerenciamento predial.
+
+3. Desenho Técnico e Interpretação de Esquemas
+
+  Desenho Técnico Eletrônico: Criação e interpretação de diagramas elétricos e esquemas de circuitos, utilizando ferramentas de desenho técnico.
+  Normas Técnicas e Regulamentações: Estudo das normas e regulamentações técnicas aplicáveis ao setor de eletroeletrônica, garantindo conformidade com padrões de segurança e qualidade.
+
+4. Projetos Práticos e Montagens
+
+  Montagem de Circuitos Eletrônicos: Desenvolvimento de projetos práticos envolvendo a montagem e teste de circuitos eletrônicos, como fontes de alimentação, amplificadores e controladores.
+  Calibração e Manutenção de Equipamentos: Práticas de calibração e manutenção de equipamentos eletrônicos, garantindo o funcionamento correto e eficiente dos dispositivos.
+
+5. Energia e Sustentabilidade
+
+  Gestão e Medição de Energia: Utilização de plataformas como Gestal para medição e gestão de energia, visando a otimização do consumo energético e a redução de custos operacionais.
+  Soluções Sustentáveis em Eletrônica: Implementação de soluções eletrônicas voltadas para a sustentabilidade, como sistemas de energia renovável e tecnologias de eficiência energética.
+
+6. Projeto Final e Integração de Conhecimentos
+
+  Desenvolvimento de um Projeto Integrador: Realização de um projeto final que integra os conhecimentos adquiridos ao longo do curso, envolvendo desde a concepção e desenho até a montagem e programação de um sistema eletrônico completo.
+  Trabalho em Equipe e Gestão de Projetos: Colaboração com colegas em projetos de grupo, aplicando técnicas de gestão de projetos para garantir a entrega eficiente e dentro dos prazos estabelecidos.
+
+Destaque em Programação
+
+A programação foi um dos focos principais durante o curso, especialmente no desenvolvimento de projetos utilizando Arduino. A programação em C permitiu a criação de soluções customizadas para diversas aplicações, desde automação residencial até projetos de eficiência energética, consolidando habilidades essenciais para o mercado de trabalho na área de eletroeletrônica.`;
+  const msg6 = `1. Fundamentos de Eletrônica:
+
+  Eletrônica Analógica: Estudo dos componentes eletrônicos básicos como resistores, capacitores, indutores, diodos e transistores. Montagem e análise de circuitos eletrônicos analógicos, como amplificadores e filtros.
+  Eletrônica Digital: Compreensão de lógica digital, portas lógicas, flip-flops, contadores e registradores. Projetos e implementação de circuitos digitais utilizando circuitos integrados.
+
+2. Programação:
+
+  Programação em C para Microcontroladores: Desenvolvimento de habilidades em programação utilizando a linguagem C para microcontroladores, permitindo a criação de sistemas embarcados e controle de hardware.
+  Desenvolvimento com Arduino: Projetos práticos utilizando a plataforma Arduino, envolvendo a programação de sensores, atuadores e interfaces de comunicação.
+  Programação de Interfaces Gráficas: Criação de interfaces gráficas para interação com sistemas eletrônicos, utilizando ferramentas e bibliotecas apropriadas.
+
+3. Sistemas Embarcados:
+
+  Desenvolvimento de Sistemas Embarcados: Projeto e implementação de sistemas embarcados para diversas aplicações, como automação residencial, controle industrial e dispositivos IoT.
+  Interface Homem-Máquina (IHM): Desenvolvimento de interfaces de usuário para a interação com sistemas eletrônicos e monitoramento de processos.
+
+4. Projeto e Montagem de Circuitos:
+
+  Design de PCB (Placas de Circuito Impresso): Desenvolvimento de habilidades no design de PCBs utilizando software especializado, montagem e testes de protótipos.
+  Soldagem e Montagem de Circuitos: Técnicas de soldagem de componentes eletrônicos e montagem de circuitos em placas de prototipagem e PCBs.
+
+5. Automação e Controle:
+
+  Sistemas de Automação: Estudo e implementação de sistemas de automação utilizando controladores lógicos programáveis (CLPs) e microcontroladores.
+  Sensores e Atuadores: Integração de sensores e atuadores em sistemas de controle, incluindo sensores de temperatura, umidade, luminosidade e motores.
+
+6. Instrumentação e Medidas:
+
+  Instrumentação Eletrônica: Utilização de instrumentos de medição eletrônica, como osciloscópios, multímetros e analisadores lógicos para testes e diagnósticos de circuitos.
+  Calibração de Equipamentos: Procedimentos de calibração de equipamentos eletrônicos para garantir a precisão e confiabilidade das medições.
+
+7. Projetos Práticos e Trabalhos em Equipe:
+
+  Desenvolvimento de Projetos: Participação em projetos práticos que envolvem todas as etapas de desenvolvimento, desde a concepção até a implementação e testes.
+  Trabalhos em Equipe: Colaboração com colegas em projetos e atividades práticas, desenvolvendo habilidades de comunicação e trabalho em equipe.
+
+Esse curso proporcionou uma formação abrangente e sólida em eletrônica, preparando os alunos para atuar em diversas áreas da indústria eletrônica, desde o desenvolvimento de hardware e software até a automação e controle de sistemas.`;
+  const msg7 = `1. Fundamentos de Programação:
+
+  Lógica de Programação: Estudo dos conceitos fundamentais de lógica de programação, algoritmos, fluxogramas e pseudocódigo.
+  Linguagens de Programação: Aprendizado de diversas linguagens de programação, como Java, C#, Python e JavaScript, com foco em práticas de codificação e boas práticas de desenvolvimento.
+
+2. Desenvolvimento de Software:
+
+  Desenvolvimento Web: Criação de aplicações web utilizando tecnologias como HTML, CSS, JavaScript, React e frameworks backend como Node.js e ASP.NET.
+  Desenvolvimento Mobile: Construção de aplicações móveis para plataformas Android e iOS utilizando ferramentas como React Native e Kotlin.
+  Desenvolvimento de Sistemas Desktop: Implementação de sistemas desktop utilizando linguagens como Java (Swing/JavaFX) e C# (WPF).
+
+3. Análise de Sistemas:
+
+  Análise de Requisitos: Técnicas de levantamento e documentação de requisitos, incluindo entrevistas, questionários e análise de documentos.
+  Modelagem de Sistemas: Utilização de ferramentas de modelagem como UML (Unified Modeling Language) para criar diagramas de casos de uso, classes, sequência, entre outros.
+
+4. Banco de Dados:
+
+  Modelagem de Dados: Criação de modelos de dados conceituais, lógicos e físicos utilizando diagramas entidade-relacionamento.
+  SGBDs: Experiência com sistemas de gerenciamento de banco de dados como MySQL, PostgreSQL e SQL Server, incluindo comandos SQL para criação, consulta e manipulação de dados.
+  NoSQL: Introdução a bancos de dados NoSQL, como MongoDB, explorando suas características e aplicações.
+
+5. Engenharia de Software:
+
+  Metodologias Ágeis: Aprendizado de metodologias ágeis como Scrum e Kanban, incluindo a utilização de ferramentas como Jira e Trello para gestão de projetos.
+  Qualidade de Software: Técnicas de garantia de qualidade de software, incluindo testes de software (unitários, de integração e de sistema) e uso de ferramentas como JUnit e Selenium.
+
+6. Infraestrutura e Redes:
+
+  Sistemas Operacionais: Estudo de sistemas operacionais como Windows e Linux, focando em administração e comandos básicos.
+  Redes de Computadores: Conceitos de redes de computadores, incluindo topologias, protocolos, configuração de dispositivos de rede e segurança.
+
+7. Projetos Práticos:
+
+  Projetos Integradores: Desenvolvimento de projetos integradores que simulam situações reais de mercado, permitindo a aplicação prática dos conhecimentos adquiridos durante o curso.
+  Trabalhos em Equipe: Colaboração com colegas em projetos e atividades práticas, desenvolvendo habilidades de comunicação, liderança e trabalho em equipe.
+
+8. Estágio Supervisionado:
+
+  Experiência Profissional: Realização de estágio supervisionado em empresas parceiras, proporcionando experiência prática no desenvolvimento de software e análise de sistemas em um ambiente corporativo.
+
+Esse curso oferece uma formação completa e atualizada em Análise e Desenvolvimento de Sistemas, preparando os alunos para atuar em diversas áreas da tecnologia da informação, desde o desenvolvimento de aplicações web e móveis até a gestão de projetos e análise de sistemas.`;
+
   return (
     <>
+      <Title msg="carreira profissional" fontcolor="#007acc" />
       <Container>
         <ProjectCard
+          fontcolor="#007acc"
           cargo="Analista de Software Jr. II"
           empresa="Torres CX"
           data="Setembro/2023 - maio/2024"
@@ -62,6 +182,7 @@ Com uma formação abrangente em eletroeletrônica, estou preparado para ingress
           src_img={torres_image}
         />
         <ProjectCard
+          fontcolor="#007acc"
           cargo="Técnico de Automação Predial Jr. III"
           empresa="Evertical Tecnologia"
           data="Março/2022 - Setembro/2024"
@@ -69,6 +190,7 @@ Com uma formação abrangente em eletroeletrônica, estou preparado para ingress
           src_img={evertical_image}
         />
         <ProjectCard
+          fontcolor="#007acc"
           cargo="Auxiliar Técnico de Automação Predial"
           empresa="Controller BMS"
           data="Outubro/2020 - Abril/2021"
@@ -76,11 +198,39 @@ Com uma formação abrangente em eletroeletrônica, estou preparado para ingress
           src_img={controller_image}
         />
         <ProjectCard
+          fontcolor="#007acc"
           cargo="Aprendiz de Eletrônica"
           empresa="METRÔ - Cia. del Metropolitano de São Paulo/SP"
           data="Jan/2016 - Dez/2017"
           more_info={msg4}
           src_img={metro_image}
+        />
+      </Container>
+      <Title msg="carreira acadêmica" fontcolor="#d10c15" />
+      <Container>
+        <ProjectCard
+          fontcolor="#d10c15"
+          cargo="Análise e Desenvolvimento de Sistemas"
+          empresa="FATEC-SP"
+          data="1SEM/2022 - cursando"
+          more_info={msg7}
+          src_img={fatec_image}
+        />
+        <ProjectCard
+          fontcolor="#d10c15"
+          cargo="Técnico em Eletrônica"
+          empresa="ETEC Prof. Aprígio Gonzaga"
+          data="1SEM/2016 - 2SEM/2017"
+          more_info={msg6}
+          src_img={etec_image}
+        />
+        <ProjectCard
+          fontcolor="#d10c15"
+          cargo="Técnico em eletroeletrônica"
+          empresa="SENAI Prof. Roberto Simonsen"
+          data="1SEM/2016 - 2SEM/2017"
+          more_info={msg5}
+          src_img={senai_image}
         />
       </Container>
       <RedeSocial />

@@ -1,7 +1,7 @@
 import styles from './ProjectCard.module.css';
 import { useState, useEffect } from 'react';
 
-function ProjectCard({ cargo, empresa, data, more_info, src_img }) {
+function ProjectCard({ cargo, empresa, data, more_info, src_img, fontcolor }) {
   const [contentStatus, setContentStatus] = useState(false);
   const [display, setDisplay] = useState('none');
   const [transform, setTransform] = useState('transform: rotate(-90deg)');
@@ -23,7 +23,7 @@ function ProjectCard({ cargo, empresa, data, more_info, src_img }) {
       <div className={styles.Container_Title}>
         <ul>
           <li>
-            <h1>{cargo}</h1>
+            <h1 style={{ color: fontcolor }}>{cargo}</h1>
           </li>
           <li>
             <p>{empresa}</p>
